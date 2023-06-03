@@ -44,7 +44,6 @@ li {
 }
 
 ol li {
-  margin-left: auto;
   display: list-item;
   list-style: inside decimal;
   color: blue;
@@ -63,11 +62,21 @@ ol li {
 }
 
 .column {
-  display: inline-block;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
   viewport-fit: auto;
   background-color:lightskyblue;
   border: 2px dotted blue;
   padding: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > div {
+  width: calc(100%/2)
 }
 
 img {
@@ -79,3 +88,9 @@ img {
   border: 2px dotted blue;
   padding: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+  .column {
+    display: inline-block;
+    viewport-fit: auto;
+  }
