@@ -68,6 +68,7 @@ ol li {
   viewport-fit: auto;
   background-color:lightskyblue;
   border: 2px dotted blue;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -88,6 +89,15 @@ img {
   border: 2px dotted blue;
   padding: 10px;
 }
+
+
+.white-text{
+  color: white;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px;
+}
+
 
 @media screen and (max-width: 1000px) {
   .column {
