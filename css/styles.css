@@ -1,7 +1,81 @@
 h1 {
-  color:blue;}
+  color:blue;
+  text-align: center;
+  font-size: 35px;
+}
 
-.skills {
+h2 {
+  color:blue;
+  text-align: center;
+  font-size: 30px
+}
+
+h3 {
+  color:blue;
+  text-align: center;
+  font-size: 25px;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+p {
+  color:blue;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+}
+
+ul {
+  text-align: left;
+  font-size: 20px;
+  
+}
+
+li {
+  list-style-type: georgian;
+  text-align: left;
+  font-size: 20px;
+}
+
+ol li {
+  margin-left: auto;
+  display: list-item;
+  list-style: inside decimal;
   color: blue;
-  border: 2px blue;
+  
+}
+
+
+.box1 {
+  float: center;
+  border: dotted blue;
+  border-width: 2px;
+  background-color: black;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  viewport-fit: auto;
+  background-color:lightskyblue;
+  border: 2px dotted blue;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  max-width: 300px;
+  border: 2px dotted blue;
+  padding: 10px;
 }
