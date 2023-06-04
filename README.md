@@ -1,5 +1,5 @@
 # _Project Portfolio_
-git
+
 #### By _**Julien Lenaz**_
 
 #### _A webpage for displaying my Epicodus portfolio_
