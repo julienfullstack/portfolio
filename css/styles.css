@@ -73,20 +73,20 @@ ol-1 li {
 
 .box2 {
   float: center;
-  border: dotted blue;
   border-width: 2px;
-  background-color: black;
   margin-top: 10px;
   padding: 10px;
   display: grid;
   grid-auto-flow: column;
+  background-color: black;
+  color: deepskyblue;
 }
 
 
 .column {
   display: grid;
   grid-auto-flow: column;
-  background-color:lightskyblue;
+  background-color:black;
   border: 2px dotted blue;
   margin: 10px;
   padding: 10px;
@@ -130,6 +130,7 @@ img {
   max-width: 300px;
   border: 2px dotted blue;
   padding: 10px;
+  background-color: black;
 }
 
 
