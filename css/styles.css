@@ -18,10 +18,13 @@ h3 {
 
 strong {
   text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  color: blue;
 }
 
 p {
-  color:blue;
+  color:deepskyblue;
   text-align: center;
   font-size: 20px;
   font-style: italic;
@@ -31,29 +34,29 @@ em {
   font-style: italic;
 }
 
-ul {
-  text-align: left;
-  font-size: 20px;
-  
-}
 
-li {
+ul li {
+  display: list-item;
+  list-style-position: inside;
+  list-style-image: none;
   list-style-type: georgian;
-  text-align: left;
   font-size: 20px;
 }
 
 ol li {
   display: list-item;
+  list-style-position: inside;
+  list-style-image: none;
   list-style: inside decimal;
+  font-size: 20px;
   
 }
 
-ol1 li {
-  display: list-item;
-  list-style:disc;
-  text-align: left;
-  
+ol-1 li {
+  list-style-position: inside;
+  list-style-image: none;
+  list-style-type: disc;
+  font-size: 20px;
 }
 
 
@@ -62,21 +65,54 @@ ol1 li {
   border: dotted blue;
   border-width: 2px;
   background-color: black;
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 20px;
   text-align: center;
 }
 
+
+.box2 {
+  float: center;
+  border: dotted blue;
+  border-width: 2px;
+  background-color: black;
+  margin-top: 10px;
+  padding: 10px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+
 .column {
   display: grid;
-  grid-auto-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  viewport-fit: auto;
+  grid-auto-flow: column;
   background-color:lightskyblue;
   border: 2px dotted blue;
   margin: 10px;
   padding: 10px;
+  text-align: center;
 }
+
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #2196F3;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  grid-template-columns: 33% 33% 33%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
 
 .flex {
   display: flex;
