@@ -78,7 +78,6 @@ ol-1 li {
   padding: 10px;
   display: grid;
   grid-auto-flow: column;
-  background-color: black;
   color: deepskyblue;
 }
 
@@ -92,26 +91,6 @@ ol-1 li {
   padding: 10px;
   text-align: center;
 }
-
-
-.grid-container {
-  display: inline-grid;
-  grid-template-columns: 33% 33% 33%;
-  background-color: #2196F3;
-  padding: 10px;
-  text-align: center;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  grid-template-columns: 33% 33% 33%;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
-
 
 
 .flex {
