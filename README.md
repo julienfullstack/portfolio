@@ -4,9 +4,9 @@
 
 #### _A webpage for displaying my Epicodus portfolio_
 
-[GitHub Pages Site](https://julienlen.github.io/portfolio/)
+[GitHub Pages Site](https://julienfullstack.github.io/portfolio/)
 
-[Repo](https://github.com/julienlen/portfolio)
+[Repo](https://github.com/julienfullstack/portfolio)
 
 ## Technologies Used
 
